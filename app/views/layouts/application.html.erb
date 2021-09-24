@@ -12,8 +12,14 @@
   </head>
   
   <body>
+  <!-- navbar -->
+
+  <%= render "navigation/navbar" %>
+
   <div class="container"> 
-    <%= yield %>
-  <div>
+    <%= render "common/flash_messages" %>
+  <%= yield %>
+  </div>
+
   </body>
 </html>

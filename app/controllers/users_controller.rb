@@ -8,9 +8,9 @@ class UsersController < ApplicationController
         @user = User.new user_params
 
         if @user.save
-            return redirect_to users_path(@user)
+            session[:user_id] = @user.id
+            return redirect_to root_url, notice: 'Logged in'
         end
-
         render :new
     end
 

@@ -1,0 +1,10 @@
+es:
+  helpers:
+    submit:
+      user:
+        create: "Guardar"
+
+  users:
+    new:
+      form:
+        error: 'Oops !! parece que algo salio mal'

@@ -23,7 +23,7 @@ es:
   helpers:
     submit:
       user:
-        create:  "Guardar"
+        create: "Guardar"
 
   user:
     errors: 'Oops !! parece que algo salio mal'

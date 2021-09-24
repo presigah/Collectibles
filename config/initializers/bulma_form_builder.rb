@@ -5,9 +5,9 @@ class BulmaFormBuilder < ActionView::Helpers::FormBuilder
             model_name = self.object.class.model_name.human
             plural_model_name = self.object.class.model_name.plural
             is_new = self.object.persisted? ? 'edit' : 'new'
-
-            @template.content_tag :div, class: 'notification is-danger' do 
-                @template.content_tag :p, I18n.t("#{plural_model_name}.#{is_new}.form.error", model: model_name)
+      
+            @template.content_tag :div, class: 'notification is-danger' do
+              @template.content_tag :p, I18n.t("#{plural_model_name}.#{is_new}.form.error", model: model_name)
             end
         end
     end
