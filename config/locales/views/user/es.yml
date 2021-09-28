@@ -5,6 +5,8 @@ es:
         create: "Guardar"
 
   users:
+    create:
+      notice: 'Bienvenido a collectibles'
     new:
       form:
         error: 'Oops !! parece que algo salio mal'

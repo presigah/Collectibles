@@ -53,4 +53,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bulma-rails', '~> 0.0.4.1'
+gem 'pagy', '~> 3.5'
 
